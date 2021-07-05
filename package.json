@@ -1,0 +1,21 @@
+{
+  "name": "supertest-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Drew-Kimberly/supertest-repro.git",
+  "author": "Drew Kimberly <andrew.e.kimberly@gmail.com>",
+  "license": "UNLICENSED",
+  "private": false,
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "supertest": "^6.1.3"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  }
+}
